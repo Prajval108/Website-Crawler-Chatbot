@@ -29,7 +29,7 @@ The **Website Crawler ChatBot** is a Python-based application designed to scrape
 
 1. **Python 3.10+**: Make sure you have Python installed on your machine.
 2. **Dependencies**: Install required Python libraries.
-3. **API Key**: Obtain an API key for the LLM provider via [litellm](https://docs.litellm.ai/docs/providers).
+3. **API Key**: Obtain an API key for the Grow. Please refere [groq doc](https://console.groq.com/docs/quickstart).
 
 
 ## Installation
@@ -46,12 +46,12 @@ The **Website Crawler ChatBot** is a Python-based application designed to scrape
    ```
 
 3. Configure environment variables:
-   - Create a `.env` file in the project directory:
+   - Rename `.env.example` file to `.env`. Update the value accordingly:
      ```env
      GROQ_API_KEY=your_groq_api_key
      MODEL_ID=groq/llama3-8b-8192
      ```
-   - Replace `your_groq_api_key` with your actual API key from the [groq quickstart](https://console.groq.com/docs/quickstart).
+   - Replace `your_groq_api_key` with your actual API key from the [groq](https://console.groq.com/docs/quickstart).
     For more details regarding model switching, refer to the [litellm documentation](https://docs.litellm.ai/docs/providers).
 
 4. Run the application:
